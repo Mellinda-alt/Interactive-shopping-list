@@ -66,7 +66,7 @@ Develop a webpage with a shopping list. Users can add items to the list, mark it
 
           git clone
 
-  https://github.com/Mellinda-alt/Interactive-shopping-list
+          https://github.com/Mellinda-alt/Interactive-shopping-list
 
 ## Running the application locally
 
