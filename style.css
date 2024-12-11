@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: none;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px brown;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+ul li.completed {
+  text-decoration: line-through;
+  color: red;
+}
+
+body {
+  width: 100vw;
+  height: 33vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: body 15s ease-in-out infinite;
+}
+@keyframes body {
+  0% {
+    background-image: url("/images/istockphoto-1173786274-1024x1024.jpg");
+  }
+  33% {
+    background-image: url("/images/istockphoto-1718516554-1024x1024.jpg");
+  }
+  66% {
+    background-image: url("/images/istockphoto-1718516602-1024x1024.jpg");
+  }
+  100% {
+    background-image: url("/images/istockphoto-975206714-1024x1024.jpg");
+  }
+}
